@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Inter";
-  src: url("/assets/fonts/Inter.ttf");
+  src: url("./assets/fonts/Inter.ttf");
 }
 @font-face {
   font-family: "Geometria";
-  src: url("/assets/fonts/Geometria.ttf");
+  src: url("./assets/fonts/Geometria.ttf");
 }
 $heading-font: "Geometria", "sans-serif";
 $text-font: "Inter", "sans-serif";
@@ -65,7 +65,7 @@ html {
   &::before {
     content: "";
     display: block;
-    background: url("/assets/icons/header-phone.svg") no-repeat;
+    background: url("./assets/icons/header-phone.svg") no-repeat;
     width: 24rem;
     height: 24rem;
     margin-right: 5rem;
@@ -148,7 +148,7 @@ html {
   &::before {
     content: "";
     display: block;
-    background: url("/assets/icons/download.svg") no-repeat;
+    background: url("./assets/icons/download.svg") no-repeat;
     width: 24rem;
     height: 24rem;
     margin-right: 9rem;
@@ -373,7 +373,7 @@ html {
     position: absolute;
     top: 40rem;
     left: 455rem;
-    background: url("/assets/icons/how-works/arrow.svg");
+    background: url("./assets/icons/how-works/arrow.svg");
     width: 60rem;
     height: 97rem;
   }
@@ -398,11 +398,11 @@ html {
   }
 }
 .time::before {
-  background: url("/assets/images/how-work/time.png") no-repeat;
+  background: url("./assets/images/how-work/time.png") no-repeat;
 }
 
 .calc::before {
-  background: url("/assets/images/how-work/calc.png") no-repeat;
+  background: url("./assets/images/how-work/calc.png") no-repeat;
 }
 .calc::before,
 .time::before {
@@ -514,7 +514,7 @@ html {
     width: 20rem;
     height: 35rem;
 
-    background: url("/assets/icons/acquaintance/pin.svg");
+    background: url("./assets/icons/acquaintance/pin.svg");
   }
   &:nth-child(2n)::before {
     transform: rotateY(180deg);
@@ -920,19 +920,19 @@ html {
 }
 .phone {
   &::before {
-    background: url("/assets/images/questions-left/call.png") no-repeat;
+    background: url("./assets/images/questions-left/call.png") no-repeat;
     background-size: cover;
   }
 }
 .email {
   &::before {
-    background: url("/assets/images/questions-left/email.png") no-repeat;
+    background: url("./assets/images/questions-left/email.png") no-repeat;
     background-size: cover;
   }
 }
 .address {
   &::before {
-    background: url("/assets/images/questions-left/address.png") no-repeat;
+    background: url("./assets/images/questions-left/address.png") no-repeat;
     background-size: cover;
   }
 }
@@ -1008,19 +1008,19 @@ html {
 }
 .phone1 {
   &::before {
-    background: url("/assets/images/footer/call.png") no-repeat;
+    background: url("./assets/images/footer/call.png") no-repeat;
     background-size: cover;
   }
 }
 .email1 {
   &::before {
-    background: url("/assets/images/footer/email.png") no-repeat;
+    background: url("./assets/images/footer/email.png") no-repeat;
     background-size: cover;
   }
 }
 .address1 {
   &::before {
-    background: url("/assets/images/footer/address.png") no-repeat;
+    background: url("./assets/images/footer/address.png") no-repeat;
     background-size: cover;
   }
 }
