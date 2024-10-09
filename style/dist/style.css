@@ -481,7 +481,7 @@ html {
   font-weight: 700;
   font-size: 24rem;
 }
-.how-work__description__item__title::before {
+.how-work__description__item__title .how-work__description__item__title-img {
   content: "";
   display: block;
   width: 41rem;

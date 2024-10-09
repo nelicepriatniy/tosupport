@@ -462,7 +462,7 @@ html {
   font-family: $heading-font;
   font-weight: 700;
   font-size: 24rem;
-  &::before {
+  & .how-work__description__item__title-img {
     content: "";
     display: block;
     width: 41rem;
